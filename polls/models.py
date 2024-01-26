@@ -26,3 +26,6 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+    
+class Categorias(models.Model):
+    cantidad = models.IntegerField(default=0)
